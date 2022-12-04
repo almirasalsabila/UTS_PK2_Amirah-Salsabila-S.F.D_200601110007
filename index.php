@@ -77,15 +77,15 @@
         <form action="">
           <table>
             <tr>
+            <td><label for="email">Email</label></td>
+              <td><input type="email" id="email" none="email" Placeholder="Masukkan Email"></td>
+            </tr>
+            <tr>
               <td><label for="nama">Nama</label></td>
              <td><input type="text" id="nama" none="nama" Placeholder="Masukkan Nama"></td>
             </tr>
             <tr>
-              <td><label for="email">Email</label></td>
-              <td><input type="email" id="email" none="email" Placeholder="Masukkan Email"></td>
-            </tr>
-            <tr>
-              <td><label for="Pesan">Pesan</label></td>
+              <td><label for="komentar">Komentar</label></td>
               <td><textarea name="Pesan" id="Pesan" cols="30" rows="10" Placeholder="Masukkan Pesan"></textarea></td>
             </tr>
         </table>
